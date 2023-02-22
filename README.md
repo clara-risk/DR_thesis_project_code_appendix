@@ -8,3 +8,14 @@ This script was used to extract the preNBR, postNBR, and calculate RBR from the 
 
 The final product of this script is a csv file containing the maximum, median, mean, and 90th percentile values inside each selected fire perimeter from the Canadian National Fire Database (CNFDB) in British Columbia. 
 
+
+
+
+
+
+
+The repository also contains basic Python scripts used to perform intermediate data processing tasks: 
+
+1: DR_flatten_geom.py 
+
+This script was used to convert the CNFDB shapefile geometry data into 2D data (only containing latitude and longitude) from 3D data (containing latitude, longitude, and elevation data, i.e. "Polygon Z" or "MultiPolygon Z" data). This was done to standardize the data and ensure that it could be used to effectively extract raster data pixels within a fire perimeter. 
