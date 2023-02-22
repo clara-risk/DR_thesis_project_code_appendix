@@ -19,3 +19,7 @@ The repository also contains basic Python scripts used to perform intermediate d
 # 1: DR_flatten_geom.py 
 
 This script was used to convert the CNFDB shapefile geometry data into 2D data (only containing latitude and longitude) from 3D data (containing latitude, longitude, and elevation data, i.e. "Polygon Z" or "MultiPolygon Z" data). This was done to standardize the data and ensure that it could be used to effectively extract raster data pixels within a fire perimeter. 
+
+# 2: DR_merge_files_in_directory_fwi.py 
+
+This script was used to merge all text files for a specified FWI variable (DC, DMC, etc.) containing data for different years (1985-2015) into a single dataframe (exported as a csv file). 
