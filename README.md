@@ -30,4 +30,8 @@ This script was used to merge all text files for a specified FWI variable (DC, D
 
 # 3: DR_example_visualize_beaudoin_data_in_fire_perimeter.ipynb 
 
-This Jupyter notebook contains an example of visualizing the Beaudoin et al. data (https://cdnsciencepub.com/doi/10.1139/cjfr-2013-0401) inside the fire perimeter. The script can be used to visualize the data but also ensure that it is being extracted from the raster data inside the fire perimeter properly. 
+This Jupyter Notebook contains an example of visualizing the Beaudoin et al. data (https://cdnsciencepub.com/doi/10.1139/cjfr-2013-0401) inside the fire perimeter. The script can be used to visualize the data but also ensure that it is being extracted from the raster data inside the fire perimeter properly. 
+
+# 4: DR_getting_harvest_area.ipynb & DR_clip_and_vectorize.ipynb 
+
+These Jupyter Notebooks contain intermediate steps for calculating the area harvested within the fire perimeters. The steps for how I exracted this information are available in the "methods_calculating_harvest_in_fire" file.
