@@ -14,6 +14,10 @@ This script was used to extract the FWI netCDF data originating from this public
 
 The final product of this script is a csv file containing the maximum, median, mean, and 90th percentile values for the FWI values inside each selected fire perimeter from the Canadian National Fire Database (CNFDB) in British Columbia on the fire report date. The script contains an option to calculate these metrics for the first 21 days of the fire if necessary as well. 
 
+# 3: DR_example_getting_Beaudoin_data.ipynb
+
+This Jupyter Notebook explains how the Beaudoin et al. data (https://cdnsciencepub.com/doi/10.1139/cjfr-2013-0401) was extracted for the area within the selected fire perimeters. 
+
 The repository also contains basic Python scripts used to perform intermediate data processing or visualization tasks: 
 
 # 1: DR_flatten_geom.py 
@@ -26,4 +30,4 @@ This script was used to merge all text files for a specified FWI variable (DC, D
 
 # 3: DR_example_visualize_beaudoin_data_in_fire_perimeter.ipynb 
 
-This Jupyter notebook contains an example of visualizing the Beaudoin data (https://cdnsciencepub.com/doi/10.1139/cjfr-2013-0401) inside the fire perimeter. The script can be used to visualize the data but also ensure that it is being extracted from the raster data inside the fire perimeter properly. 
+This Jupyter notebook contains an example of visualizing the Beaudoin et al. data (https://cdnsciencepub.com/doi/10.1139/cjfr-2013-0401) inside the fire perimeter. The script can be used to visualize the data but also ensure that it is being extracted from the raster data inside the fire perimeter properly. 
